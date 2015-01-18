@@ -130,20 +130,11 @@ span.icon img {
 .section-content {
 	max-width: 720px;
 }
-
-.content-right {
-	margin-left: 50%;
-}
-
-.content-left {
-	margin-right: 50%;
-}
-
-.section-content p {
+.section-wrapper p {
 	font-size: 140%;
 }
 
-.section-content li {
+.section-wrapper li {
 	font-size: 140%;
 }
 
@@ -287,6 +278,7 @@ span.icon img {
 }
 
 /* responsive styling */
+
 @media (max-width: 767px) {
 	.navbar-header {
 	  padding-left: 15px;
