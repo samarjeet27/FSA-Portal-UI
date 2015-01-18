@@ -242,6 +242,53 @@ span.icon img {
 	font-size: 200%;
 }
 
+.events li {
+	list-style-type: none;
+	padding:15px;
+	font-size: 125%;
+}
+.date-content {
+	float: left;
+	margin-right: 5%;
+}
+.date-circle {
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	background: #3fb58e;
+	color: #fff;
+	padding: 5px;
+}
+.alternate-color {
+	background: #1EBAD4;
+}
+.event-name h1 {
+	margin: 5px;
+}
+.events li:nth-child(odd){
+	background: #f6f6f6;
+}
+.event-controls {
+	margin-left: 2%;
+	padding: 20px;
+}
+.event-controls button {
+	padding: 15px;
+	margin-right: 5%;
+	width:15%
+}
+
+.date {
+	position: relative;
+	left: 3px;
+	top: 25%;
+	-webkit-font-smoothing: antialiased;
+	font-size: 120%;
+}
+
+.events li div {
+	display: inline-block;
+}
 /* footer */
 .footer {
 	background: #f6f6f6;

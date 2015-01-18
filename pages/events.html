@@ -68,62 +68,100 @@
 		<div class="page-container">
 			<div class="page-wrapper">
 				<div class="page-content">
-					<h1 align="center">Upcoming Events</h1>
-					<div class="table-responsive">
-						<div class="panel panel-default">
-							<!-- Default panel contents -->
-							<div class="panel-heading">The upcoming events are as follows -</div>
-							
-							<!-- Table -->
-							<table class="table">
-								<thead>
-									<tr>
-										<td>Event</td>
-										<td>Date</td>
-										<td>Venue</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Community Meetup</td>
-										<td>2/10/15</td>
-										<td>Beijing</td>
-									</tr>
-									<tr>
-										<td>Firefox OS Meet</td>
-										<td>8/10/15</td>
-										<td>California</td>
-									</tr>
-									<tr>
-										<td>Mozilla Workshop</td>
-										<td>4/9/15</td>
-										<td>London</td>
-									</tr>
-									<tr>
-										<td>Community get-together</td>
-										<td>4/5/15</td>
-										<td>Dubai</td>
-									</tr>
-								</tbody>
-							</table>
+					<div class="container">
+						<strong><h1 align="center">Upcoming events</h1></strong>
+						<div class="event-controls">
+							<button class="btn btn-primary btn-bloc">Find an Event</button>
+							<button class="btn btn-primary btn-bloc">+ Add Event</button>
 						</div>
-					</div>
-					<div class="responsive-calendar">
-						<div class="controls">
-						    <a class="pull-left" data-go="prev"><div class="btn btn-primary">Prev</div></a>
-						    <h4><span data-head-year></span> <span data-head-month></span></h4>
-						    <a class="pull-right" data-go="next"><div class="btn btn-primary">Next</div></a>
-						</div><hr/>
-						<div class="day-headers">
-							<div class="day header">Mon</div>
-							<div class="day header">Tue</div>
-							<div class="day header">Wed</div>
-							<div class="day header">Thu</div>
-							<div class="day header">Fri</div>
-							<div class="day header">Sat</div>
-							<div class="day header">Sun</div>
+						<div class="event-list">
+							<ul class="events">
+								<li>
+									<div class="date-content">
+										<div class="date-circle">
+											<span class="date">24 Jan</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">Firefox OS Event</a></h1>
+										<p>Master event will take place on 24 jan</p>
+									</div>
+								</li>
+								<li>
+									<div class="date-content">
+										<div class="date-circle alternate-color">
+											<span class="date">30 Jan</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">Mozilla Meet</a></h1>
+										<p>London</p>
+									</div>
+								</li>
+								<li>
+									<div class="date-content">
+										<div class="date-circle" style="background:#FC1152;">
+											<span class="date">5 Feb</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">Webmaker</a></h1>
+										<p>Workshop</p>
+									</div>
+								</li>
+								<li>
+									<div class="date-content">
+										<div class="date-circle">
+											<span class="date">17 May</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">Web Developer Conference</a></h1>
+										<p>Bangalore</p>
+									</div>
+								</li>
+								<li>
+									<div class="date-content">
+										<div class="date-circle alternate-color">
+											<span class="date">7 Mar</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">Ace-mozilla</a></h1>
+										<p>Dubai</p>
+									</div>
+								</li>
+								<li>
+									<div class="date-content">
+										<div class="date-circle" style="background:#FC1152;">
+											<span class="date">1 Apr</span>
+										</div>
+									</div>
+									<div class="event-name">
+										<h1><a href="#">popcorn.js</a></h1>
+										<p>Workshop</p>
+									</div>
+								</li>
+							</ul>
 						</div>
-						<div class="days" data-group="days">
+						<strong><h1 align="center">Our Calendar</h1></strong>
+						<div class="responsive-calendar">
+							<div class="controls">
+							    <a class="pull-left" data-go="prev"><div class="btn btn-primary">Prev</div></a>
+							    <h4><span data-head-year></span> <span data-head-month></span></h4>
+							    <a class="pull-right" data-go="next"><div class="btn btn-primary">Next</div></a>
+							</div><hr/>
+							<div class="day-headers">
+								<div class="day header">Mon</div>
+								<div class="day header">Tue</div>
+								<div class="day header">Wed</div>
+								<div class="day header">Thu</div>
+								<div class="day header">Fri</div>
+								<div class="day header">Sat</div>
+								<div class="day header">Sun</div>
+							</div>
+							<div class="days" data-group="days">
+							</div>
 						</div>
 					</div>
 				</div>
