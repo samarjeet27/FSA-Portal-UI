@@ -185,17 +185,22 @@ span.icon img {
 }
 
 .users-online {
-	width: 20%;
+	width: 30%;
 	background: #f6f6f6;
 	float: left;
 	margin-right: 30px;
 	min-height: 420px;
+	padding: 0;
 }
 
+.userlist {
+	padding: 0;
+}
 .userlist li{
 	list-style-type: none;
 	padding: 20px;
 	font-size: 130%;
+	text-align: center;
 }
 
 .user-me {
