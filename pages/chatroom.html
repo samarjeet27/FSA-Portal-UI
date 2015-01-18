@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Firefox Student Ambassadors</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/metro-bootstrap.css">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<nav class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						<a class="navbar-brand" >
+							<img class="img-logo" src="../img/fsa.png">
+						</a>
+					</div>
+					<div id="navbar" style="float:right;margin-right:45px;" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="../index.html">Home</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Page Samples <strong class="caret"></strong></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="pages/signup.html">Sign Up Page</a></li>
+									<li><a href="pages/chatroom.html">Chatroom</a></li>
+									<li><a href="pages/events.html">Events</a></li>
+									<li><a href="pages/events.html">Profile</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Log In <strong class="caret"></strong></a>
+								<div class="dropdown-menu login-menu">
+									<form method="post" id="formLogin" action="login" accept-charset="UTF-8">
+										<input class="form-control" type="text" placeholder="Username" name="username">
+										<input class="form-control" type="password" placeholder="Password" name="password">
+										<label class="control checkbox">
+											<input type="checkbox">
+											<span class="checkbox-label">Remember me</span>
+										</label>
+										<input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
+										<label class="login-label">OR</label>
+										<input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+										<input style="margin-bottom:10px;" class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		
+		<div class="page-container">
+			<div class="page-wrapper">
+				<div class="page-content">
+					<h1 align="center">Chat room</h1>
+					<div class="chat-room-container">
+						<div class="chat-room">
+							<div class="users-online">
+								<ul class="userlist">
+									<li>John</li>
+									<li>Timothy</li>
+									<li>Mark</li>
+									<li>Bill</li>
+									<li>George</li>
+								</ul>
+							</div>
+							<ul class="messages">
+								<li><a href="#" class="chat-my-username">John: </a>Hey everyone !</li>
+								<li><a href="#" class="chat-username">Timothy: </a>Hey John !</li>
+								<li class="chat-user-add"><a href="#" class="chat-user-join">Mark</a> joined the chatroom</li>
+								<li><a href="#" class="chat-username">Mark: </a>I 'm back !</li>
+								<li><a href="#" class="chat-username">John: </a>nothing much ? you ?</li>
+								<li><a href="#" class="chat-username">John: </a>George, why don't you speak ?</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">Copyright &copy; <a href="#">Firefox Student Ambassadors</a></p>
+			</div>
+    	</footer>
+	</div>
+
+	<!-- scripts -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+#formLogin {
+	padding: 5px;
+}
+#formLogin input {
+	padding: 8px;
+	margin-bottom: 15px;
+}
+
+.login-menu {
+	padding: 15px; 
+	padding-bottom: 0px;
+	width: 210px;
+}
+
+.login-label {
+	text-align: center;
+}
+
+.login-check {
+	float: left; 
+	margin-right: 10px;
+}
+.img-logo {
+	max-width: 36px;
+	height: auto;
+}
+
+.navbar-brand {
+	padding: 6px;
+}
+
+.cover {
+	background: url('../img/cover.jpg');
+	height: 440px;
+	background-size: 100% 440px;
+}
+
+.cover-content {
+	background: #222222;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #fff;
+	margin-top: 15%;
+	margin-left: 10%;
+	-webkit-box-shadow: 1px #222222;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    1px #222222;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         1px #222222; 
+}
+
+.content-container {
+	font-size: 130%;
+	max-width: 400px;
+}
+
+.content-wrapper {
+	padding: 18px;
+}
+
+.section-wrapper {
+	width: 100%;
+	padding: 20px 100px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.section-content {
+	max-width: 720px;
+}
+
+.content-right {
+	margin-left: 50%;
+}
+
+.content-left {
+	margin-right: 50%;
+}
+
+.section-content p {
+	font-size: 140%;
+}
+
+.section-content li {
+	font-size: 140%;
+}
+
+.section-content h1 {
+	margin-bottom: 24px;
+}
+
+.content-image {
+	float: left;
+	margin-right: 20px;
+}
+
+.content-image img {
+	max-width: 400px;
+	height: auto;
+}
+
+/* for 200px image */
+.img-expand {
+	margin-top: 30%;
+	margin-left: 20%;
+}
+
+.bg-alternate {
+	background: #f6f6f6;
+}
+.page-wrapper {
+	width: 100%;
+	padding: 20px 100px;
+}
+
+.page-content h1 {
+	margin-bottom: 30px;
+}
+
+.img-right {
+	position: absolute;
+	margin-left: 60%;
+}
+
+.users-online {
+	width: 20%;
+	background: #f6f6f6;
+	float: left;
+	margin-right: 30px;
+	min-height: 420px;
+}
+
+.userlist li{
+	list-style-type: none;
+	padding: 20px;
+	font-size: 130%;
+}
+
+.messages {
+	margin-left: 25%;
+}
+.messages li {
+	list-style-type: none;
+	padding: 20px;
+	font-size: 150%;
+}
+.chat-room {
+	width: 80%;
+}
+.chat-room-container {
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
+	width: 100%;
+}
+.chat-username {
+	color: #d88322;
+}
+.chat-user-add {
+	text-align: center;
+	font-size: 110% !important;
+}
+
+.chat-user-join {
+	color: #24d83c;
+}
+.chat-my-username {
+	color: #428bca;
+}
+
+.table thead tr td {
+	font-weight: bold;
+}
+
+.controls {
+	font-size: 200%;
+}
+
+/* footer */
+.footer {
+	background: #f6f6f6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.social-icons li {
+	list-style-type: none;
+	float: left;
+}
