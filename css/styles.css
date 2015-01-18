@@ -134,6 +134,11 @@
 	font-size: 130%;
 }
 
+.textbox-message {
+	padding: 25px;
+	font-size: 120%;
+}
+
 .messages {
 	margin-left: 25%;
 }
