@@ -16,12 +16,12 @@
 			<nav class="navbar navbar-default navbar-static-top">
 				<div class="container">
 					<div class="navbar-header">
-						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 						<a class="navbar-brand" >
 							<img class="img-logo" src="../img/fsa.png">
 						</a>
@@ -65,7 +65,7 @@
 		</div>
 		
 		<div class="page-container">
-			<div class="page-wrapper">
+			<div class="container">
 				<div class="page-content">
 					<h1 align="center">Chat room</h1>
 					<div class="chat-room-container">
@@ -79,14 +79,17 @@
 									<li>George</li>
 								</ul>
 							</div>
-							<ul class="messages">
-								<li><a href="#" class="chat-my-username">John: </a>Hey everyone !</li>
-								<li><a href="#" class="chat-username">Timothy: </a>Hey John !</li>
-								<li class="chat-user-add"><a href="#" class="chat-user-join">Mark</a> joined the chatroom</li>
-								<li><a href="#" class="chat-username">Mark: </a>I 'm back !</li>
-								<li><a href="#" class="chat-my-username">John: </a>nothing much ? you ?</li>
-								<li><a href="#" class="chat-username">Bill: </a>George, why don't you speak ?</li>
-							</ul>
+							<div class="message-container">
+								<ul class="messages">
+									<li><a href="#" class="chat-my-username">John: </a>Hey everyone !</li>
+									<li><a href="#" class="chat-username">Timothy: </a>Hey John !</li>
+									<li class="chat-user-add"><a href="#" class="chat-user-join">Mark</a> joined the chatroom</li>
+									<li><a href="#" class="chat-username">Mark: </a>I 'm back !</li>
+									<li><a href="#" class="chat-my-username">John: </a>nothing much ? you ?</li>
+									<li><a href="#" class="chat-username">Bill: </a>George, why don't you speak ?</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
 						</div>
 						<div class="send-message">
 							<input class="form-control textbox-message" type="text" placeholder="Type message" name="message">

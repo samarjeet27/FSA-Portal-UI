@@ -280,3 +280,11 @@ span.icon img {
 	background: url('../img/social/github.png');
 	background-size: 32px 32px;
 }
+
+/* responsive styling */
+@media (max-width: 767px) {
+	.navbar-header {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+}
