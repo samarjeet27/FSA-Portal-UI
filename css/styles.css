@@ -134,6 +134,10 @@
 	font-size: 130%;
 }
 
+.user-me {
+	font-weight: bold;
+}
+
 .textbox-message {
 	padding: 25px;
 	font-size: 120%;
