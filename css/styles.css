@@ -289,6 +289,10 @@ span.icon img {
 .events li div {
 	display: inline-block;
 }
+
+#chat-interface {
+	display: none;
+}
 /* footer */
 .footer {
 	background: #f6f6f6;
