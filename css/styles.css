@@ -96,7 +96,7 @@ span.icon img {
 .cover {
 	background: url('../img/cover.jpg');
 	height: 440px;
-	background-size: 100% 440px;
+	background-size: cover;
 }
 
 .cover-content {
